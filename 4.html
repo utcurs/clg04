@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .link-container {
+    margin: 20px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Anchor Tag Examples</h2>
+
+  <div class="link-container">
+    <p><strong>a. Creating a web link that opens in a new window:</strong></p>
+    <a href="https://www.google.com/" target="_blank">Visit Example Website</a>
+  </div>
+
+  <div class="link-container">
+    <p><strong>b. Creating a web link that opens in the same window:</strong></p>
+    <a href="https://www.google.com">Go to Google</a>
+  </div>
+
+  <div class="link-container">
+    <p><strong>c. Reference within the same HTML document:</strong></p>
+    <p><a href="#section2">Jump to Section 2</a></p>
+    <p>Some content...</p>
+    <p id="section2">Section 2 content...</p>
+  </div>
+
+  <div class="link-container">
+    <p><strong>d. Reference to an image:</strong></p>
+    <a href="https://i.pinimg.com/564x/a5/68/dc/a568dc43f0cbfa1550be39d4d99d5fe7.jpg" target="_blank">
+      <img src="https://i.pinimg.com/564x/a5/68/dc/a568dc43f0cbfa1550be39d4d99d5fe7.jpg" alt="Example Image">
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
